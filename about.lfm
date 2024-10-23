@@ -1,0 +1,23 @@
+object About: TAbout
+  Left = 458
+  Height = 240
+  Top = 183
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'About'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 136
+    Top = 96
+    Width = 306
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Когда-нибудь я засуну сюда крутой текст'
+    ParentBidiMode = False
+  end
+end
